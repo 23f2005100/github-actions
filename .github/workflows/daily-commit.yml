@@ -1,4 +1,4 @@
-name: Daily Automated Commit
+name: 23f2005100@ds.study.iitm.ac.in Daily Commit
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update log file - 23f2005100@ds.study.iitm.ac.in
+      - name: 23f2005100@ds.study.iitm.ac.in
         run: |
           echo "Automated update: $(date)" >> activity_log.txt
 
